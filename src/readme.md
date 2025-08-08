@@ -1,0 +1,1 @@
+bash -lc 'cd /home/julien-schmah/work/game && python3 -m http.server 8000'

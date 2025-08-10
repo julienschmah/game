@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0d13;
+  --panel: #101420;
+  --neon: #7aa2f7;
+}
+
+html, body, #__next { height: 100%; }
+
+.neon-button {
+  @apply px-6 py-3 rounded-md bg-panel border border-[#1a2333] shadow-[0_0_30px_rgba(122,162,247,0.2)] hover:shadow-[0_0_40px_rgba(122,162,247,0.35)] transition-shadow;
+}
